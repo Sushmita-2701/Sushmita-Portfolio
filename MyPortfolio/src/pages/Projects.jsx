@@ -1,9 +1,14 @@
 import React from "react";
 import { ExternalLink } from "lucide-react";
 
+import lmsImg from "../assets/lms.png";
+import airbnbImg from "../assets/airbnb.png";
+import tradingImg from "../assets/trading.png";
+
 const projects = [
   {
     title: "Learning Management System (LMS)",
+    image: lmsImg,
     description:
       "Built a full-stack Learning Management System where users can browse, enroll, and access online courses with secure authentication and role-based access.",
     features: [
@@ -19,6 +24,7 @@ const projects = [
   },
   {
     title: "Airbnb Full Stack Web Application",
+    image: airbnbImg,
     description:
       "Developed a full-stack Airbnb-inspired platform with secure authentication, property listings, search and filtering features.",
     features: [
@@ -28,12 +34,19 @@ const projects = [
       "Responsive UI using Bootstrap & Material UI",
       "MongoDB Atlas cloud database",
     ],
-    tech: ["Node.js", "Express.js", "MongoDB Atlas", "Bootstrap", "Material UI"],
+    tech: [
+      "Node.js",
+      "Express.js",
+      "MongoDB Atlas",
+      "Bootstrap",
+      "Material UI",
+    ],
     github: "https://github.com/Sushmita-2701/Airbnb-full-stack-project",
     live: "#",
   },
   {
     title: "Full Stack Trading Website",
+    image: tradingImg,
     description:
       "A full-stack trading platform with user dashboard, data management, and secure backend APIs for financial operations.",
     features: [
@@ -56,7 +69,6 @@ const Projects = () => {
       className="min-h-screen bg-[#020817] text-white py-24 px-6"
     >
       <div className="max-w-7xl mx-auto">
-
         {/* Heading */}
         <div className="text-center mb-20">
           <h2 className="text-3xl md:text-4xl font-bold mt-8">
@@ -80,17 +92,13 @@ const Projects = () => {
               className="bg-[#07111F]/80 backdrop-blur-xl border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-400/40 transition-all duration-300"
             >
               <div className="grid lg:grid-cols-2 gap-8">
-
-                {/* LEFT */}
-                <div className="h-80 lg:h-full bg-gradient-to-br from-cyan-500/20 via-blue-500/20 to-purple-500/20 flex items-center justify-center">
-                  <div className="text-center px-6">
-                    <h3 className="text-3xl font-bold">
-                      {project.title}
-                    </h3>
-                    <p className="text-slate-300 mt-3">
-                      Project Preview
-                    </p>
-                  </div>
+                {/* LEFT IMAGE */}
+                <div className="h-80 lg:h-full overflow-hidden bg-[#0B1220]">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover hover:scale-105 transition duration-500"
+                  />
                 </div>
 
                 {/* RIGHT */}
@@ -150,7 +158,6 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
-
               </div>
             </div>
           ))}
@@ -173,7 +180,6 @@ const Projects = () => {
             <p className="text-slate-400 mt-2">Responsive Design</p>
           </div>
         </div>
-
       </div>
     </section>
   );
