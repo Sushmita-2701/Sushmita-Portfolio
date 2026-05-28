@@ -1,5 +1,4 @@
 import React from "react";
-import { ExternalLink } from "lucide-react";
 
 import lmsImg from "../assets/lms.png";
 import airbnbImg from "../assets/airbnb.png";
@@ -20,10 +19,10 @@ const projects = [
     ],
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Clerk", "REST API"],
     github: "https://github.com/Sushmita-2701/lms",
-    live: "#",
+    
   },
   {
-    title: "Airbnb Full Stack Web Application",
+    title: "OpalNest Full Stack Web Application",
     image: airbnbImg,
     description:
       "Developed a full-stack Airbnb-inspired platform with secure authentication, property listings, search and filtering features.",
@@ -42,7 +41,7 @@ const projects = [
       "Material UI",
     ],
     github: "https://github.com/Sushmita-2701/Airbnb-full-stack-project",
-    live: "#",
+   
   },
   {
     title: "Full Stack Trading Website",
@@ -58,7 +57,7 @@ const projects = [
     ],
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "REST API"],
     github: "https://github.com/Sushmita-2701/FullStack--trading-website",
-    live: "#",
+
   },
 ];
 
@@ -145,16 +144,6 @@ const Projects = () => {
                       className="px-5 py-3 rounded-xl border border-slate-700 hover:border-cyan-400 transition"
                     >
                       GitHub
-                    </a>
-
-                    <a
-                      href={project.live}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="flex items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-purple-500 hover:scale-105 transition"
-                    >
-                      Live Demo
-                      <ExternalLink size={18} />
                     </a>
                   </div>
                 </div>

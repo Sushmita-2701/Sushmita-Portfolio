@@ -12,7 +12,7 @@ const About = () => {
       title: "Dr. Shakuntala Misra National Rehabilitation University",
       degree: "Bachelor of Technology in Computer Science Engineering",
       location: "Lucknow, India",
-      year: "Nov 2022 - Jul 2026",
+      year: "Oct 2022 - Jul 2026",
       score: "CGPA 7.30 till 7th semester",
     },
     {
@@ -26,7 +26,7 @@ const About = () => {
       title: "Maharshi Vidya Mandir English Medium School",
       degree: "Secondary Education",
         location: "Pune, India",
-      year: "Jun 2018 - May 2020",
+      year: "Jun 2019 - May 2020",
       score: "Percentage - 85%",
     },
   ];
