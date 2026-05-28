@@ -16,7 +16,7 @@ import {
 
 
 
-import profile from "../assets/profile.jpeg";
+import profile from "../assets/profile.png";
 
 const Home = () => {
      const navigate = useNavigate();
