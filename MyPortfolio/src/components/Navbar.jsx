@@ -49,8 +49,8 @@ const Navbar = () => {
 
           {/* Resume */}
           <a
-            href="/Sushmita_Resume.pdf"
-            download="Sushmita_Maurya_Resume.pdf"
+            href="/Sushmita_Software_developer.pdf"
+            download="Sushmita_Software_developer.pdf"
             className="hidden md:flex items-center gap-2 border border-[#f2f2ee] px-5 py-2.5 font-mono text-sm text-[#f2f2ee] hover:bg-[#f2f2ee] hover:text-[#0a0a0a] transition-colors"
           >
             resume.pdf
