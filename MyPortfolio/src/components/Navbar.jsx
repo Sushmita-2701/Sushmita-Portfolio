@@ -46,7 +46,7 @@ const Navbar = () => {
             download="Sushmita_Maurya_Resume.pdf"
             className="hidden md:flex items-center gap-2 bg-gradient-to-r from-[#ff6b5e] to-[#4fd1c5] px-5 py-2.5 font-mono text-sm text-[#0b0a10] font-semibold hover:opacity-90 transition-opacity"
           >
-            resume.pdf
+            Sushmita_Software_developer.pdf
             <Download size={15} />
           </a>
 

@@ -44,7 +44,7 @@ const Home = () => {
               </div>
 
               <h1 className="mt-8 font-display text-5xl md:text-6xl font-semibold leading-[1.05] tracking-tight">
-                Sushmita Anil
+                Sushmita 
                 <br />
                 <span className="grad-text">Maurya</span>
               </h1>
