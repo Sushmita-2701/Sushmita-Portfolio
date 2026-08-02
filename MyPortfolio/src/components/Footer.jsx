@@ -4,24 +4,24 @@ import { SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0b0a10] text-[#a8a2b0] border-t border-[#262230]">
+    <footer className="bg-[#0a0a0a] text-[#a3a3a0] border-t border-[#2a2a2a]">
       <div className="max-w-7xl mx-auto px-6 py-16">
 
         <div className="grid md:grid-cols-3 gap-10">
 
           <div>
-            <h2 className="font-display text-2xl font-semibold text-[#f3efea]">
+            <h2 className="font-display text-2xl font-semibold text-[#f2f2ee]">
               Sushmita Anil Maurya
             </h2>
-            <p className="text-[#a8a2b0] mt-4 leading-relaxed">
+            <p className="text-[#a3a3a0] mt-4 leading-relaxed">
               Software Developer skilled in React.js, Node.js, Express.js and
               MongoDB. Building scalable, real-time web applications.
             </p>
-            <p className="mt-4 text-[#6e6878] text-sm font-mono">Pune, India</p>
+            <p className="mt-4 text-[#6b6b68] text-sm font-mono">Pune, India</p>
           </div>
 
           <div>
-            <h3 className="font-mono text-sm uppercase tracking-wide text-[#ff8a7f] mb-5">
+            <h3 className="font-mono text-sm uppercase tracking-wide text-[#f2f2ee] mb-5">
               Contact
             </h3>
             <ul className="space-y-3 text-sm">
@@ -29,7 +29,7 @@ const Footer = () => {
               <li>
                 <a
                   href="mailto:mauryasushmita9422@gmail.com"
-                  className="hover:text-[#4fd1c5] transition-colors"
+                  className="hover:text-[#f2f2ee] transition-colors"
                 >
                   mauryasushmita9422@gmail.com
                 </a>
@@ -39,7 +39,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/in/sushmita-anil-maurya-a86120325/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-[#4fd1c5] transition-colors"
+                  className="hover:text-[#f2f2ee] transition-colors"
                 >
                   LinkedIn ↗
                 </a>
@@ -49,7 +49,7 @@ const Footer = () => {
                   href="https://github.com/Sushmita-2701"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-[#4fd1c5] transition-colors"
+                  className="hover:text-[#f2f2ee] transition-colors"
                 >
                   GitHub ↗
                 </a>
@@ -59,7 +59,7 @@ const Footer = () => {
                   href="https://leetcode.com/u/sushmita_2701/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-[#4fd1c5] transition-colors"
+                  className="hover:text-[#f2f2ee] transition-colors"
                 >
                   LeetCode ↗
                 </a>
@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="font-mono text-sm uppercase tracking-wide text-[#7fe3d9] mb-5">
+            <h3 className="font-mono text-sm uppercase tracking-wide text-[#f2f2ee] mb-5">
               Technical Skills
             </h3>
             <p className="text-sm leading-relaxed">
@@ -76,7 +76,7 @@ const Footer = () => {
               Express.js, REST APIs, Socket.io, MongoDB, MySQL, Docker, Git,
               GitHub
             </p>
-            <p className="mt-4 text-[#6e6878] text-sm font-mono">
+            <p className="mt-4 text-[#6b6b68] text-sm font-mono">
               Focus: Full Stack Development &amp; Problem Solving
             </p>
           </div>
@@ -88,7 +88,7 @@ const Footer = () => {
             href="https://github.com/Sushmita-2701"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 flex items-center justify-center border border-[#262230] hover:bg-[#ff6b5e] hover:text-[#0b0a10] hover:border-[#ff6b5e] transition-colors"
+            className="w-12 h-12 flex items-center justify-center border border-[#2a2a2a] hover:border-[#f2f2ee] hover:text-[#f2f2ee] transition-colors"
           >
             <FaGithub />
           </a>
@@ -96,7 +96,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/sushmita-anil-maurya-a86120325/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 flex items-center justify-center border border-[#262230] hover:bg-[#4fd1c5] hover:text-[#0b0a10] hover:border-[#4fd1c5] transition-colors"
+            className="w-12 h-12 flex items-center justify-center border border-[#2a2a2a] hover:border-[#f2f2ee] hover:text-[#f2f2ee] transition-colors"
           >
             <FaLinkedinIn />
           </a>
@@ -104,7 +104,7 @@ const Footer = () => {
             href="https://leetcode.com/u/sushmita_2701/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 flex items-center justify-center border border-[#262230] hover:bg-[#ff6b5e] hover:text-[#0b0a10] hover:border-[#ff6b5e] transition-colors"
+            className="w-12 h-12 flex items-center justify-center border border-[#2a2a2a] hover:border-[#f2f2ee] hover:text-[#f2f2ee] transition-colors"
           >
             <SiLeetcode />
           </a>
@@ -112,18 +112,18 @@ const Footer = () => {
             href="https://mail.google.com/mail/?view=cm&fs=1&to=mauryasushmita9422@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 flex items-center justify-center border border-[#262230] hover:bg-[#4fd1c5] hover:text-[#0b0a10] hover:border-[#4fd1c5] transition-colors"
+            className="w-12 h-12 flex items-center justify-center border border-[#2a2a2a] hover:border-[#f2f2ee] hover:text-[#f2f2ee] transition-colors"
           >
             <FaEnvelope />
           </a>
         </div>
 
-        <div className="mt-10 text-[#6e6878] text-sm border-t border-[#262230] pt-6 font-mono">
+        <div className="mt-10 text-[#6b6b68] text-sm border-t border-[#2a2a2a] pt-6 font-mono">
           B.Tech CSE — Dr. Shakuntala Misra National Rehabilitation University,
           Lucknow — CGPA 7.49/10
         </div>
 
-        <div className="mt-6 text-center text-[#6e6878] text-sm font-mono">
+        <div className="mt-6 text-center text-[#6b6b68] text-sm font-mono">
           © {new Date().getFullYear()} Sushmita Maurya. Built with React &amp; Tailwind CSS.
         </div>
 
