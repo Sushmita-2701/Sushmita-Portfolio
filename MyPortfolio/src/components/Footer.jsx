@@ -36,7 +36,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/sushmita-anil-maurya-a86120325/"
+                  href="https://www.linkedin.com/in/sushmita-maurya-a86120325/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#f2f2ee] transition-colors"
@@ -93,7 +93,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/sushmita-anil-maurya-a86120325/"
+            href="https://www.linkedin.com/in/sushmita-maurya-a86120325/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center border border-[#2a2a2a] hover:border-[#f2f2ee] hover:text-[#f2f2ee] transition-colors"
