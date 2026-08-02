@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root{
+  --bg: #0b0a10;
+  --bg-raised: #15131b;
+  --bg-card: #131019;
+  --border: #262230;
+  --border-hover: #3d3748;
+  --text: #f3efea;
+  --text-muted: #a8a2b0;
+  --text-dim: #6e6878;
+
+  --coral: #ff6b5e;
+  --coral-soft: #ff8a7f;
+  --coral-dim: rgba(255, 107, 94, 0.12);
+
+  --teal: #4fd1c5;
+  --teal-soft: #7fe3d9;
+  --teal-dim: rgba(79, 209, 197, 0.12);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+::selection{
+  background: var(--coral);
+  color: #0b0a10;
+}
+
+::-webkit-scrollbar{ width: 8px; }
+::-webkit-scrollbar-track{ background: var(--bg); }
+::-webkit-scrollbar-thumb{ background: var(--border-hover); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover{ background: var(--coral); }
+
+.font-display{
+  font-family: "Space Grotesk", sans-serif;
+}
+.font-mono{
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* signature duotone gradient text */
+.grad-text{
+  background: linear-gradient(100deg, var(--coral) 0%, var(--teal) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.grain{
+  position: relative;
+}
+.grain::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+
+.cursor-blink{
+  display: inline-block;
+  width: 0.55ch;
+  background: var(--coral);
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink{
+  0%, 50%{ opacity: 1; }
+  50.01%, 100%{ opacity: 0; }
+}
+
+.hairline{
+  background: linear-gradient(to right, transparent, var(--border) 20%, var(--border) 80%, transparent);
+  height: 1px;
+}
+
+.hairline-grad{
+  background: linear-gradient(to right, transparent, var(--coral) 15%, var(--teal) 85%, transparent);
+  height: 1px;
+  opacity: 0.6;
+}
+
+.tag-mono{
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+}
+
+.glow-coral{
+  box-shadow: 0 0 60px -10px rgba(255, 107, 94, 0.25);
+}
+.glow-teal{
+  box-shadow: 0 0 60px -10px rgba(79, 209, 197, 0.25);
+}
