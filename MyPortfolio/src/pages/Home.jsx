@@ -17,7 +17,7 @@ import { ArrowRight } from "lucide-react";
 
 const socials = [
   { icon: <FaGithub />, href: "https://github.com/Sushmita-2701" },
-  { icon: <FaLinkedinIn />, href: "https://www.linkedin.com/in/sushmita-anil-maurya-a86120325/" },
+  { icon: <FaLinkedinIn />, href: "https://www.linkedin.com/in/sushmita-maurya-a86120325/" },
   { icon: <SiLeetcode />, href: "https://leetcode.com/u/sushmita_2701/" },
   { icon: <FaEnvelope />, href: "https://mail.google.com/mail/?view=cm&fs=1&to=mauryasushmita9422@gmail.com" },
 ];
