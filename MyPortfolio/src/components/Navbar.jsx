@@ -83,7 +83,7 @@ const Navbar = () => {
 
             <a
               href="/Sushmita_Resume.pdf"
-              download="Sushmita_Maurya_Resume.pdf"
+              download="Sushmita_Software_developer.pdf"
               className="flex items-center gap-2 border border-[#f2f2ee] px-5 py-3 text-[#f2f2ee] w-fit"
             >
               resume.pdf

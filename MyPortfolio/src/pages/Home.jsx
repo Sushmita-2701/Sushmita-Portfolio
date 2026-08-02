@@ -46,7 +46,7 @@ const Home = () => {
               <h1 className="mt-8 font-display text-5xl md:text-6xl font-semibold leading-[1.05] tracking-tight">
                 Sushmita 
                 <br />
-                <span className="grad-text">Maurya</span>
+                <span className="mt-8 font-display text-5xl md:text-6xl font-semibold leading-[1.05] tracking-tight">Maurya</span>
               </h1>
 
               <p className="mt-5 font-mono text-sm md:text-base text-[#a8a2b0] tracking-wide">
@@ -118,7 +118,7 @@ const Home = () => {
               <div className="hairline-grad mt-8"></div>
               <div className="grid grid-cols-3 mt-8 font-mono text-center">
                 <div>
-                  <p className="text-3xl font-display font-semibold grad-text">6+</p>
+                  <p className="text-3xl text-[#6e6878] font-display font-semibold grad-text">6+</p>
                   <p className="text-xs text-[#6e6878] mt-1 tracking-wide">projects</p>
                 </div>
                 <div className="border-x border-[#262230]">
@@ -126,7 +126,7 @@ const Home = () => {
                   <p className="text-xs text-[#6e6878] mt-1 tracking-wide">dsa solved</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-display font-semibold grad-text">4</p>
+                  <p className="text-3xl text-[#6e6878] font-display font-semibold grad-text">4</p>
                   <p className="text-xs text-[#6e6878] mt-1 tracking-wide">months internship</p>
                 </div>
               </div>
